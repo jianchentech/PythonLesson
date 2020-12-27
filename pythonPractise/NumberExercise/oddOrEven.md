@@ -7,3 +7,18 @@ Extras:
 
 If the number is a multiple of 4, print out a different message.
 Ask the user for two numbers: one number to check (call it num) and one number to divide by (check). If check divides evenly into num, tell that to the user. If not, print a different appropriate message.
+
+# Helen Solution
+```
+a=int(input("Put a number:"))
+b=a % 2
+if b > 0:
+    print("It's an odd number")
+else:
+    print("It's an even number")
+c=a % 4
+if c > 0:
+    print("This number is not a multiple of 4")
+else:
+    print("This number is a multiple of 4")
+```
