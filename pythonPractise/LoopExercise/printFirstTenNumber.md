@@ -15,7 +15,7 @@ Expected output:
 - 9
 - 10
 
-#Helen solution
+# Helen solution
 
 ```
 i=10
