@@ -14,3 +14,11 @@ Expected output:
 - 8
 - 9
 - 10
+#Helen solution
+
+```
+i=10
+while i>0:
+    print(i)
+    i=i-1
+```
