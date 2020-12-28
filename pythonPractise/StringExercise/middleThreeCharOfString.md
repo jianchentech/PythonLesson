@@ -13,3 +13,16 @@ Given a string of odd length greater 7, return a string made of the middle three
 - Expected Output:
 
 - `Son`
+
+# Eric Solution:
+
+```
+print('Case 1')
+a = 'JhonDipPeta'
+print(a[4:7])
+print('')
+print('')
+print('Case 2')
+b = 'JaSonAy'
+print(b[2:5])
+```
