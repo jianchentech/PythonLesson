@@ -1,7 +1,7 @@
 # Exercise: 
 Given a string of odd length greater 7, return a string made of the middle three chars of a given String
 
-##Case 1:
+## Case 1:
 
 - str1 = "JhonDipPeta"
 - Expected Output:
@@ -15,6 +15,8 @@ Given a string of odd length greater 7, return a string made of the middle three
 - `Son`
 
 # Eric Solution:
+
+## Level 2
 
 ```
 print('Case 1')
