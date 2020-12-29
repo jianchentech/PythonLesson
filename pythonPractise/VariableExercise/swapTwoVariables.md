@@ -20,7 +20,9 @@ y = 10
 ```
 x = 5
 y = 10
-x, y = y, x
-print("x =", x)
-print("y=", y)
+a=5
+x=10
+y=5
+print("x="+x)
+print("y+"+y)
 ```
