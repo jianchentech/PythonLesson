@@ -16,7 +16,7 @@ Given a string of odd length greater 7, return a string made of the middle three
 
 # Eric Solution:
 
-## Level 2
+
 
 ```
 print('Case 1')
