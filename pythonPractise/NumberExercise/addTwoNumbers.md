@@ -10,3 +10,9 @@ Output: 8
 Input: num1 = 13, num2 = 6
 Output: 19
 ```
+# Helen Solution
+```
+a=int(input("Input a first number:"))
+b=int(input("Input a second number:"))
+print(a+b)
+```

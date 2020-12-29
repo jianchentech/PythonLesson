@@ -12,3 +12,10 @@ n
 t
 v
 ```
+# Helen Solution
+```
+a=input("Input a word:")
+for i in range(len(a)):
+    if i % 2 ==0:
+        print(a[i])
+```

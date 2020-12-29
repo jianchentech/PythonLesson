@@ -10,3 +10,10 @@ Divisible of 5 in a list
 20
 55
 ```
+# Helen Solution
+```
+a=(10, 20, 33, 46, 55)
+for item in a:
+    if item%5==0:
+        print(item)
+```

@@ -16,3 +16,11 @@ y = 5
 x = 5
 y = 10
 ```
+# Helen Solution
+```
+x = 5
+y = 10
+x, y = y, x
+print("x =", x)
+print("y=", y)
+```
