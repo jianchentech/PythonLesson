@@ -11,3 +11,10 @@ list1 = [10, 20, 30, 40, 50]
 20
 10
 ```
+
+#Eric Solution
+```
+list1 = [10, 20, 30, 40, 50]
+for i in range(1, 6):
+    print(list1[-i])
+```
