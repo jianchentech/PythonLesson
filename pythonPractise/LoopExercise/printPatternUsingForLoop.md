@@ -14,9 +14,9 @@ Print the following pattern using for loop
 
 #Eric Solution
 ```
-list1 = [10, 20, 30, 40, 50]
-for i in range(1, 6):
-    print(list1[-i])
+list1 = [5, 4, 3, 2, 1]
+for i in range(0, 5):
+    print(list1[i:])
 ```
 
 
