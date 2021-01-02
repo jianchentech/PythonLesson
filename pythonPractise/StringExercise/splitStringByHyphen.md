@@ -16,3 +16,10 @@ a
 data
 scientist
 ```
+#Eric Solution:
+```
+str1 = "Emma-is-a-data-scientist"
+split_str = str1.split("-")
+for i in range(0, 5):
+    print(split_str[i])
+```
