@@ -3,7 +3,7 @@
 In Python, pattern printing programs are a great way to test nested loop designing skills. Essentially, all you have to do is print text in such a way, using loops, that they resemble symmetrical patterns.
 
 ## Step 1:
-Now, if a user enters the number 5, you need to print four rows of the following Half Pyramid pattern. 
+Now, if a user enters the number 5, you need to print five rows of the following Half Pyramid pattern. 
 For example, a half pyramid pattern looks like this:
 
 ```
