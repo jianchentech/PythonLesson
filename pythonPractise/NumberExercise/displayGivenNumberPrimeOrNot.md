@@ -19,3 +19,18 @@ Input a number:
 ### Expected output:
 
 The Given number 37 is prime
+
+
+#Eric Solution
+```
+str_number = input(("input a positive whole number__except 1:"))
+int_number = int(str_number)
+x = 0
+for i in range(2, int_number):
+    if int_number % i == 0:
+        x = 1
+if x == 1:
+    print("The given number "+str_number+" "+"is not prime.")
+else:
+    print("The given number "+str_number+" "+"is prime.")
+```
