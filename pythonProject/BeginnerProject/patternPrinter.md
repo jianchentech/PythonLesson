@@ -1,4 +1,4 @@
-# Pattern Printer:
+# Pattern Printer (Deadline: January 16 12:00PM, 2021:
 
 In Python, pattern printing programs are a great way to test nested loop designing skills. Essentially, all you have to do is print text in such a way, using loops, that they resemble symmetrical patterns.
 
