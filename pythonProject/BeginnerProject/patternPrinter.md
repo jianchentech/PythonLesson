@@ -21,7 +21,7 @@ You can try other patterns as well (at least two pattern) and create a menu-base
 ----------Pattern Printer Menu----------
 1. Print Half Pyramid of Number
 2. Print Inverted Half Pyramid of Number
-3. Print Half Pyramid of Number
+3. Print full Pyramid of Number
 4. Print Inverted full pyramid of Number
 ```
 ----
