@@ -13,7 +13,14 @@ For example, a half pyramid pattern looks like this:
 1 2 3 4
 1 2 3 4 5 
 ```
-
+or
+```
+[1]
+[1, 2]
+[1, 2, 3]
+[1, 2, 3, 4]
+[1, 2, 3, 4, 5]
+```
 ## Step 2:
 You can try other patterns as well (at least two pattern) and create a menu-based program that asks the users which pattern they want to print. For instance like the following menu:
 
