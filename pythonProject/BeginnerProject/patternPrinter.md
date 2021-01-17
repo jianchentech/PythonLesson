@@ -56,19 +56,19 @@ elif int_Option == 2:
             print(i, end=" ")
         print("")
 elif int_Option == 3:
-    a = " "
+    a = "  "
     for i in range(1, int(Number_of_rows)+1):
         print(a * (int(Number_of_rows) - i), end="")
         for x in range(1, i * 2):
             print(x, end=" ")
         print("")
 elif int_Option == 4:
-    a = " "
+    a = "  "
     b = int(Number_of_rows)
     for i in range(1, b+1):
         print(a * (i - 1), end=" ")
         for x in range(1, b * 2):
-            print(x, end="")
+            print(x, end=" ")
         b = b - 1
         print("")
 else:
