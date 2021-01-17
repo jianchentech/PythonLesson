@@ -1,4 +1,4 @@
-# Number Guessing Game (Deadline: January 30 12:00PM, 2021:
+# Number Guessing Game (Deadline: January 30 11:59PM, 2021):
 
 This project also uses the random module in Python. The program will first randomly generate a number unknown to the user. The user needs to guess what that number is. (In other words, the user needs to be able to input information.) If the user’s guess is wrong, the program should return some sort of indication as to how wrong (e.g. The number is too high or too low). If the user guesses correctly, a positive indication should appear. It needs to check the difference between the inputted number and the randomly generated numbers, and then compare the numbers.
 Concepts to keep in mind:
