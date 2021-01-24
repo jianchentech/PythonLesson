@@ -238,5 +238,5 @@ Congratulations you did it in  3  try
 ```
 ### Code Review: 
 ```
-Very excellent job! I'm so excited that your coding ability reach a very high level. 
+
 ```
