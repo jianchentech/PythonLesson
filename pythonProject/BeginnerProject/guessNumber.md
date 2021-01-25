@@ -181,81 +181,13 @@ successful finally.
 ----
 # Vivianne Section:
 
-### Solution 1:
+### Solution:
 ```
-import random
-random_number = random.randint(1,100)
-win = False
-Turns =0
-while win==False:
-    Your_guess = input("Enter a number between 1 and 100")
-    Turns +=1
-    if random_number==int(Your_guess):
-        print("You won!")
-        print("Number of turns you have used: ",Turns)
-        win == True
-        break
-    else:
-     if random_number>int(Your_guess):
-        print("Try Again ! You Guessed Too Low")
-     else:
-        print("Try Again ! You Guessed Too High")
-```
-### Solution 2:
-```
-import random
-import math
 
-# Taking Inputs
-lower = int(input("Emter Lower bound:- "))
-
-# Taking Inputs
-upper = int(input("Enter Upper bound:- "))
-
-# generating random number between
-# the lower and upper
-x = random.randint(lower, upper)
-print("\n\tYou've only got ", round(math.log(upper - lower + 1,2)), " chances to guess the integer!\n")
-# Initializing the number of guesses.
-count = 0
-
-# for calculation of minimum number of
-# guesses depends upon range
-while count < math.log(upper - lower + 1, 2):
-    count += 1
-
-    # taking guessing number as input
-    guess = int(input("Guess a number:- "))
-
-    # Condition testing
-    if x == guess:
-        print("Congratulations you did it in ", count, " try")
-        # Once guessed, loop will break
-        break
-    elif x > guess:
-        print("You guessed too small!")
-    elif x < guess:
-        print("You Guessed too high!")
-
-# If Guessing is more than required guesses,
-# shows this output.
-if count >= math.log(upper - lower + 1, 2):
-    print("\nThe number is %d" % x)
-    print("\tBetter Luck Next time!")
 ```
 ### Results:
 ```
-Emter Lower bound:- 1
-Enter Upper bound:- 10
 
-	You've only got  3  chances to guess the integer!
-
-Guess a number:- 6
-You guessed too small!
-Guess a number:- 8
-You guessed too small!
-Guess a number:- 9
-Congratulations you did it in  3  try
 ```
 ### Code Review: 
 ```
