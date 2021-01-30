@@ -127,15 +127,40 @@ Excellent Job!
 # Jeremy Section:
 ### Solution:
 ```
-
+import random
+n=int(input("enter your number limit:"))
+number = random.randrange(1,n)
+guess = int(input("guess a number between 1 and n:"))
+while guess != number:
+    if guess< number:
+        print("your guess is too low.😥 Try again")
+        guess = int(input("guess a number between 1 and n: "))
+    elif guess>number:
+        print("your guess is too high.😥Try again")
+        guess = int(input(" guess a number between 1 and n: "))
+else:
+    print("you guessed the number correctly!Congratulations!🙂🤗😊👏😜")
 ```
 ### Results:
 ```
-
+enter your number limit:10
+guess a number between 1 and n:5
+your guess is too low.😥 Try again
+guess a number between 1 and n: 8
+you guessed the number correctly!Congratulations!🙂🤗😊👏😜
 ```
 ### Code Review: 
 ```
-
+The project has been developped according to user requirements and the code
+structure is clear, for example the combination of while loop and if else conditions
+was mastered. Especially your childlike emoji symbols impressed me. But the following 
+two requirements are not reflected in your code： 
+- User inputs the **lower bound** and **upper bound** of the range.
+- User input the maximum number of guesses.
+- If the user didn’t guess the integer with the maximum number of guesses, he/she will get “Better Luck Next Time!” output.
+Furhtermore, this lined code 'guess = int(input("guess a number between 1 and n:"))' was repeated 3 times and you 
+can simplify it for optimization of your program. 
+If you can continue this progress and will be definitely successful! 
 ```
 ----
 # Vincent Section:
