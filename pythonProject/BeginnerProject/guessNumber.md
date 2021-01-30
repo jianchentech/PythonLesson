@@ -151,7 +151,17 @@ you guessed the number correctly!Congratulations!🙂🤗😊👏😜
 ```
 ### Code Review: 
 ```
-
+This project has been developped according to user requirements and the code
+structure is clear. The combination of while loop and if else conditions
+were mastered. Especially your usage of childlike emoji symbols really 
+impressed me. But the following requirements were not reflected in your
+program:
+- User inputs the **lower bound** and **upper bound** of the range.
+- User input the maximum number of guesses.
+- If the user didn’t guess the integer with the maximum number of guesses, he/she will get “Better Luck Next Time!” output.
+Furthermore, this lined code 'guess = int(input(" guess a number between 1 and n: "))'
+was repeated wiht 3 time and you can simplify it for optimization.
+If you can continue your progress and will definitely reach your final goal.
 ```
 ----
 # Vincent Section:
