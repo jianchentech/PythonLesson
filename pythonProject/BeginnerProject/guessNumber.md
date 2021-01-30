@@ -127,11 +127,27 @@ Excellent Job!
 # Jeremy Section:
 ### Solution:
 ```
-
+import random
+n=int(input("enter your number limit:"))
+number = random.randrange(1,n)
+guess = int(input("guess a number between 1 and n:"))
+while guess != number:
+    if guess< number:
+        print("your guess is too low.😥 Try again")
+        guess = int(input("guess a number between 1 and n: "))
+    elif guess>number:
+        print("your guess is too high.😥Try again")
+        guess = int(input(" guess a number between 1 and n: "))
+else:
+    print("you guessed the number correctly!Congratulations!🙂🤗😊👏😜")
 ```
 ### Results:
 ```
-
+enter your number limit:10
+guess a number between 1 and n:5
+your guess is too low.😥 Try again
+guess a number between 1 and n: 8
+you guessed the number correctly!Congratulations!🙂🤗😊👏😜
 ```
 ### Code Review: 
 ```
