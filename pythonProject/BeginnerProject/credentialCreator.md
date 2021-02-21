@@ -23,6 +23,7 @@ and cannot easily be memorized.
 4. The credential contains at least one lower case letter.
 5. The credential contains at least one upper case letter.
 6. The credential contains at least one digit.
+7. The credential contains at lease one symbol/punctuation.
 
 
 Output :
@@ -52,7 +53,7 @@ Symbol = 2
 ```
 
 ### Step4
-Remove special symbols/Punctuation from above credential:
+Remove special symbols/punctuation from above credential:
 
 Output :
 ```
