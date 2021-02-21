@@ -2,16 +2,20 @@
 
 ### Step1
 First of all it will create some global variables to store letters (lowercase and 
-uppercase), digits and punctuation respectively as followed:
+uppercase), digits and punctuation respectively. You can use the following scripts
+directly:
 ```
 import string
-alphabet=list(string.ascii_letters)
+lower_case=list(string.ascii_lowercase)
+upper_case=list(string.ascii_uppercase)
 digit=list(string.digits)
 symbol=list(string.punctuation)
 vowel=['a', 'i', 'e', 'o', 'u']
 ```
+Use the random method to select character from above each list given.
 It needs to use a mixture of numbers, alphabets and other symbols picked up
-from above lists given to form a random credential string which is unpredictable and cannot easily be memorized.
+from above lists given to form a random credential string which is unpredictable 
+and cannot easily be memorized.
 
 1. The components of the credential are represented in the form of arrays.
 2. The credential should start with a Vowel letter from above list.
@@ -21,15 +25,13 @@ from above lists given to form a random credential string which is unpredictable
 6. The credential contains at least one digit.
 
 
-Use the random method to select character from each array of characters.
-
 Output :
 ```
 af2byU$@zTg5
 ```
 
 ### Step2
-Generate a string made of the first 2 and the last 2 chars from above credential:
+Generate a string made of the first 2 and the last 2 characters from above credential:
 
 Output :
 ```
