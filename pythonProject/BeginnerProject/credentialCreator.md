@@ -24,6 +24,8 @@ and cannot easily be memorized.
 5. The credential contains at least one upper case letter.
 6. The credential contains at least one digit.
 7. The credential contains at lease one symbol/punctuation.
+8. It needs to create each independent function for above methods like select random vowel and so on
+9. Finally, it needs to create a main function to call your every function.
 
 
 Output :
