@@ -1,10 +1,19 @@
 # Search Algorithm (Deadline: March 20 11:59PM, 2021):
 
+Given a list of integer numbers in range of 1 and 2000 as followed:
+```
+list_store=[2*i for i in range(1,1000)]
+```
+It needs user to enter a number and then search it in above given
+listed integer numbers by using the following two search methods:
+
 ### Binary search
 this search algorithm takes advantage of a collection of elements 
 that is already sorted by ignoring half of the elements after just one
-comparison. Write a function which implements binary search. You may assume
-that the input list will be sorted. Hint: this function is often written recursively.
+comparison. Write a function which implements binary search. It should take a list and number
+entered by user as a parameter, and return the position of the number entered by user in the list. If the entered number is
+not in the list, the function should return a message like 'The number was not existed
+in Given list'.
 
 ```
 1. Compare x with the middle element.
@@ -14,10 +23,10 @@ that the input list will be sorted. Hint: this function is often written recursi
 ```
 
 ### Linear search
-Write a function which implements linear search. It should take a list and an element
-as a parameter, and return the position of the element in the list. If the element is
-not in the list, the function should raise an exception. If the element is in the list
-multiple times, the function should return the first position.
+Write a function which implements linear search. It should take a list and number
+entered by user as a parameter, and return the position of the number entered by user in the list. If the entered number is
+not in the list, the function should return a message like 'The number was not existed
+in Given list'.
 
 ```
 1. Start from the leftmost element of list and one by one compare x with each element of the list.
